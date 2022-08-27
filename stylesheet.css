@@ -16,7 +16,7 @@ html {
     max-width: 100%;
     max-height: 100vh;
     margin: auto;
-    opacity: 0.3;
+    opacity: 0.15;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -webkit-transition: all 1s ease;
@@ -28,12 +28,13 @@ img:hover {
     filter: gray;
     -webkit-filter: grayscale(0%);
     filter: none;
-    transition: 1s ease;
+    transition: 2s ease;
 }
-
 @media only screen and (max-width: 600px) {
     .center-fit {
         margin-top: 50%;
 
     }
 }
+
+
